@@ -128,7 +128,7 @@ public class AACCRASHER extends Module {
      * The {@code name} parameter should be in kebab-case.
      */
     public AACCRASHER() {
-        super(AddonTemplate.CATEGORY, "AAC CRASHER", "Server Crasher LOL.");
+        super(AddonTemplate.CATEGORY, "AAC-CRASHER", "Server Crasher LOL.");
     }
     @EventHandler
     private void onWorldChange(GameLeftEvent event) {

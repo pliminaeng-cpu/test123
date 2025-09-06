@@ -2,3 +2,18 @@
 /w a a
 /me a
 /msg
+/tp 198652 96 -420611
+/pong
+/pong @a
+/pong &6&lA&e&lM &7>> &6Валюта была успешно установленна!
+/pong &6&lA&e&lM &7>> Hello
+/pong &6&lA&e&lM &7>> &6Hello
+/transform
+/kaboom
+/summon minecraft:fireball ~ ~ ~ {ExplosionPower:128}
+/summon minecraft:fireball ~ ~ ~ {ExplosionPower:127}
+/summon minecraft:fireball ~ ~1 ~ {ExplosionPower:127, direction:[0.0,-1.0,0.0]}
+/summon Fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-1.0,0.0]}
+/summon fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-1.0,0.0]}
+/summon fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-10.0,0.0]}
+/gamemode creative

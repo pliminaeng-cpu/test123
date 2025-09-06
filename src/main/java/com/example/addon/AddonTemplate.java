@@ -1,10 +1,7 @@
 package com.example.addon;
 
 //import com.example.addon.commands.Crash;
-import com.example.addon.modules.AACCRASHER;
-import com.example.addon.modules.COMPLETIONCRASH;
-import com.example.addon.modules.PAPERWINDOWEXPLOIT;
-import com.example.addon.modules.PARTICLECRASHER;
+import com.example.addon.modules.*;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -28,6 +25,7 @@ public class AddonTemplate extends MeteorAddon {
         Modules.get().add(new COMPLETIONCRASH());
         Modules.get().add(new PAPERWINDOWEXPLOIT());
         Modules.get().add(new PARTICLECRASHER());
+        Modules.get().add(new FIREBALLCRASHER());
 //        Commands.add(new Crash());
 
     }
