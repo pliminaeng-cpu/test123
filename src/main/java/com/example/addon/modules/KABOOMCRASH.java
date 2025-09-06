@@ -29,9 +29,9 @@ public class KABOOMCRASH extends Module {
     private final Setting<Integer> packets = sgGeneral.add(new IntSetting.Builder()
         .name("Packets per tick")
         .description("Amount of packets sent each tick")
-        .defaultValue(20)
-        .min(2)
-        .sliderMax(400)
+        .defaultValue(2000)
+        .min(2000)
+        .sliderMax(2000)
         .build()
     );
     private final Setting<Modes> payloads = sgGeneral.add(new EnumSetting.Builder<Modes>()
