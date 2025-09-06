@@ -1,0 +1,108 @@
+---- Minecraft Network Protocol Error Report ----
+// All lines are down!
+
+Time: 2025-09-06 21:43:47
+Description: Packet handling error
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at knot//io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at knot//io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at knot//io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at knot//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Netty Client IO #3
+Stacktrace:
+	at knot//net.minecraft.network.listener.PacketListener.fillCrashReport(PacketListener.java:33)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Is Local: false
+	Server type: OTHER
+	Server brand: Paper
+Stacktrace:
+	at knot//net.minecraft.network.listener.PacketListener.fillCrashReport(PacketListener.java:33)
+	at knot//net.minecraft.network.NetworkThreadUtils.fillCrashReport(NetworkThreadUtils.java:62)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.savePacketErrorReport(ClientCommonNetworkHandler.java:142)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.createDisconnectionInfo(ClientCommonNetworkHandler.java:133)
+	at knot//net.minecraft.network.ClientConnection.exceptionCaught(ClientConnection.java:161)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856)
+	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at knot//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at knot//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 265947960 bytes (253 MiB) / 721420288 bytes (688 MiB) up to 8547991552 bytes (8152 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i9-12900K
+	Identifier: Intel64 Family 6 Model 151 Stepping 2
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 3070
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8192.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.8097
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 5.20
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 5.20
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 96887.95
+	Virtual memory used (MiB): 80391.77
+	Swap memory total (MiB): 64287.93
+	Swap memory used (MiB): 26624.13
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 21293.98, total: 487593.00
+	Space in storage for workdir (MiB): available: 343797.88, total: 1907727.00
+	JVM Flags: 0 total; 
+
+-- Meteor Client --
+
+Version: 1.21.8
+Build: 36
+
+[[ Active Modules ]]
+
+[Misc]:
+discord-presence

@@ -1,6 +1,3 @@
-//replacenear 50 wather air
-//replacenear 50 water air
-//replacenear 50 stone air
 //replacenear 50 cobblestone air
 //replacenear 50 lava air
 /rules
@@ -48,3 +45,6 @@
 /sudo DegageCord92201 c:im gay
 /c
 /op Player937
+/gamerule sendCommandFeedback false
+/gamerule logAdminCommands false
+/gamerule commandBlockOutput false
