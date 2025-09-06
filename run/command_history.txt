@@ -1,4 +1,3 @@
-//replacenear 50 obsidian air
 //replacenear 50 wather air
 //replacenear 50 water air
 //replacenear 50 stone air
@@ -48,3 +47,4 @@
 /minecraft:gamemode creative
 /sudo DegageCord92201 c:im gay
 /c
+/op Player937
