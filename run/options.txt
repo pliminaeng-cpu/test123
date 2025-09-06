@@ -1,7 +1,7 @@
 version:4440
 ao:true
 biomeBlendRadius:2
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
@@ -16,7 +16,7 @@ fullscreen:false
 gamma:0.5
 graphicsMode:1
 guiScale:0
-maxFps:120
+maxFps:260
 inactivityFpsLimit:"afk"
 mipmapLevels:4
 narrator:0
@@ -131,7 +131,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.meteor-client.open-gui:key.keyboard.right.shift
 key_key.meteor-client.open-commands:key.keyboard.period
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

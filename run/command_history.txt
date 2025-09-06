@@ -1,19 +1,50 @@
-/w a
-/w a a
+//replacenear 50 obsidian air
+//replacenear 50 wather air
+//replacenear 50 water air
+//replacenear 50 stone air
+//replacenear 50 cobblestone air
+//replacenear 50 lava air
+/rules
+/op Player345
+/tellraw @a [{"text":"[","color":"red"},{"text":"☢","color":"yellow"},{"text":"Radioactive bot","color":"green"},{"text":"☢","color":"yellow"},{"text":"] ","color":"red"},{"text":"» ","color":"white"},{"text":"testing... core works!","color":"white"}]
+/c
+/minecraft:kick Laddery
+/minecraft:kick Laddery l
+/tp Laddery
+/sudo
+/sudo execute as @a at @s run say a
+/sudo execute executeas @a at @s run say a
+/sudo execute execute as @a at @s run say a
+/sudo * execute as @a at @s run say a
+/execute as @a at @s run pardon
+/execute as @a at @s run say a
+/minecraft:execute as @a at @s run say a
+/tp DegageCord92201
+/gamerule sendCommandFeedback false
+/gamerule logAdminCommands false
+/msg a
+/msg ah
+/msg ah h
 /me a
-/msg
-/tp 198652 96 -420611
-/pong
-/pong @a
-/pong &6&lA&e&lM &7>> &6Валюта была успешно установленна!
-/pong &6&lA&e&lM &7>> Hello
-/pong &6&lA&e&lM &7>> &6Hello
-/transform
-/kaboom
-/summon minecraft:fireball ~ ~ ~ {ExplosionPower:128}
-/summon minecraft:fireball ~ ~ ~ {ExplosionPower:127}
-/summon minecraft:fireball ~ ~1 ~ {ExplosionPower:127, direction:[0.0,-1.0,0.0]}
-/summon Fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-1.0,0.0]}
-/summon fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-1.0,0.0]}
-/summon fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-10.0,0.0]}
+/sudo * /c:a
+/sudo * c:a
+/sudo * c:hello
+/sudo * c:/execute a
+/sudo * c:/execute as @a at @s run say a
+/sudo * c:/say a
+/op @a
+/op
+/op tx_gay
+/sudo * c:/op tx_gay
+/sudo * c:/say i'm guy
+/sudo * c:/deop 12alex12
 /gamemode creative
+/particle minecraft:ash ~ ~ ~ ~ ~ ~ 0 2147483647 force Massive_Bladder
+/c
+/particle minecraft:ash ~ ~ ~ ~ ~ ~ 0 2147483647 force Laddery
+/particle minecraft:ash ~ ~ ~ ~ ~ ~ 0 2147483646 force Laddery
+/sudo * c:/particle minecraft:ash ~ ~ ~ ~ ~ ~ 0 2147483647 force Laddery
+/sudo * c:/particle minecraft:ash ~ ~ ~ ~ ~ ~ 0 15 force Laddery
+/minecraft:gamemode creative
+/sudo DegageCord92201 c:im gay
+/c
