@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=G:\p\meteor-addon-template-master\metor client crash addon\build\classes\java\main\metor-client-crash-addon-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=G:\p\meteor-addon-template-master\metor client crash addon\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.main.tiny&quot; -AinMapFileNamedIntermediary=G:\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="metor_client_crash_addon.test" options="&quot;-AoutRefMapFile=G:\p\meteor-addon-template-master\metor client crash addon\build\classes\java\test\test-metor-client-crash-addon-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=G:\p\meteor-addon-template-master\metor client crash addon\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.test.tiny&quot; -AinMapFileNamedIntermediary=G:\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>

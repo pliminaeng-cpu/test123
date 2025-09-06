@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-client-crash-addon",
+  "version": "0.1.0",
+  "name": "meteor client crash addon",
+  "description": "An addon template for Meteor Client addons.",
+  "authors": [
+    "mari_gold_27153"
+  ],
+  "contact": {
+    "discord": "mari_gold_27153"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.AddonTemplate"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["1.21.8"],
+    "meteor-client": "*"
+  }
+}

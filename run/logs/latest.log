@@ -1,0 +1,154 @@
+[19:32:58] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[19:32:58] [main/INFO] (FabricLoader) Loading 8 mods:
+	- fabric-api-base 0.4.64+9ec45cd8f3
+	- fabric-resource-loader-v0 3.1.11+946bf4c3f3
+	- fabricloader 0.17.2
+	- java 21
+	- meteor-client 1.21.8-36
+	- meteor-client-crash-addon 0.1.0
+	- minecraft 1.21.8
+	- mixinextras 0.5.0
+[19:32:59] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/G:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:32:59] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:32:59] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[19:33:00] [main/WARN] (FabricLoader/Mixin) Error loading class: baritone/command/defaults/ComeCommand (java.lang.ClassNotFoundException: baritone/command/defaults/ComeCommand)
+[19:33:00] [main/WARN] (FabricLoader/Mixin) @Mixin target baritone.command.defaults.ComeCommand was not found meteor-client-baritone.mixins.json:ComeCommandMixin from mod meteor-client
+[19:33:00] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:33:02] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 567 milliseconds
+[19:33:10] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:33:10] [Render thread/INFO] (Minecraft) Setting user: Player400
+[19:33:11] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[19:33:12] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[19:33:13] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client, meteor-client-crash-addon
+[19:33:13] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[19:33:13] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[19:33:13] [Render thread/INFO] (AddonTemplate) Hello from ExampleMixin!
+[19:33:13] [Render thread/INFO] (Meteor Client) Force loading mixins
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EndCrystalEntityRenderer
+[19:33:13] [Worker-Main-17/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.particle.FireworksSparkParticle$FireworkParticle
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.SynchronizeRegistriesTask
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ElytraFeatureRenderer
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.resource.ClientDataPackManager
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.EnchantingTableBlockEntityRenderer
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.model.EndCrystalEntityModel
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.DisconnectedScreen
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager$ClientChunkMap
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SectionedEntityCache
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BannerBlockEntityRenderer
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractFurnaceScreen
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.model.BakedQuad
+[19:33:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayNetworkHandler
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookEditScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.CapeFeatureRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.ServerConfigurationNetworkHandler
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.world.CreateWorldScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.function.FunctionLoader
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.screen.HorseScreenHandler
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.PlayerEntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.recipe.ServerRecipeManager
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ArmorFeatureRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.ClientConnection
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.pack.ResourcePackOrganizer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.HeadFeatureRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.chunk.light.ChunkSkyLightProvider
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.color.world.BiomeColors
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.BlockCollisionSpliterator
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine$Visible
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.config.SelectKnownPacksC2SPacket
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ChatInputSuggestor
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.EntityTrackingSection
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.ItemEntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.RenderLayers
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SimpleEntityLookup
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.test.TestServer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.command.DatapackCommand
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.RaycastContext
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.util.DefaultSkinHelper
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.dedicated.ServerPropertiesHandler
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.DrawContext
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.chunk.ChunkOcclusionDataBuilder
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LivingEntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayerInteractionManager
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.input.KeyboardInput
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.font.TextRenderer$Drawer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BeaconScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.multiplayer.ConnectScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.ServerAdvancementLoader
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BrewingStandScreen
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.tooltip.TooltipComponent
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.MobSpawnerBlockEntityRenderer
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.WorldRenderer$BrightnessGetter
+[19:33:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LightningEntityRenderer
+[19:33:14] [Render thread/INFO] (Meteor Client) Initializing Meteor Client
+[19:33:15] [Render thread/INFO] (Reflections) Reflections took 470 ms to scan 1 urls, producing 24 keys and 962 values
+[19:33:15] [Render thread/INFO] (Reflections) Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values
+[19:33:16] [Render thread/INFO] (Meteor Client) Found 106 font families.
+[19:33:16] [Render thread/INFO] (Meteor Client) Path Manager: none
+[19:33:17] [Render thread/INFO] (AddonTemplate) Initializing meteor client crash addon Made By mari_gold_27153
+[19:33:17] [Render thread/WARN] (Meteor Client) Module 'AAC CRASHER' contains invalid characters in its name making it incompatible with Meteor Client commands.
+[19:33:17] [Render thread/INFO] (Meteor Client) Loading
+[19:33:17] [Render thread/INFO] (Meteor Client) Loaded in 57 milliseconds
+[19:33:18] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 헤드폰(TWS)
+[19:33:18] [Render thread/INFO] (Minecraft) Sound engine started
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:33:18] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[19:33:22] [Render thread/INFO] (Minecraft) Loaded 1407 recipes
+[19:33:23] [Render thread/INFO] (Minecraft) Loaded 1520 advancements
+[19:34:51] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[19:34:51] [Server thread/INFO] (Minecraft) Generating keypair
+[19:34:52] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[19:34:52] [Render thread/INFO] (Minecraft) 스폰 영역 준비 중: 2%
+[19:34:52] [Render thread/INFO] (Minecraft) Time elapsed: 196 ms
+[19:34:52] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[19:34:52] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[19:34:54] [Server thread/INFO] (Minecraft) Player400[local:E:58732d11] logged in with entity id 1 at (9.5, -60.0, 4.5)
+[19:34:54] [Server thread/INFO] (Minecraft) Player400이(가) 게임에 참여했습니다
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[19:34:54] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[19:34:54] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[19:34:54] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[19:34:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[19:34:55] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[19:34:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[19:34:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[19:38:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[19:43:31] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[19:43:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[19:43:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[19:43:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[19:46:13] [Render thread/INFO] (Minecraft) [System] [CHAT] 알 수 없거나 불완전한 명령어입니다, 아래의 오류를 확인하세요
+[19:46:13] [Render thread/INFO] (Minecraft) [System] [CHAT] w a<--[여기]
+[19:46:18] [Render thread/INFO] (Minecraft) [System] [CHAT] 플레이어를 찾을 수 없습니다
+[19:46:23] [Server thread/INFO] (Minecraft) [Not Secure] * Player400 a
+[19:46:23] [Render thread/INFO] (Minecraft) [CHAT] * Player400 a
+[19:46:26] [Render thread/INFO] (Minecraft) [System] [CHAT] 알 수 없거나 불완전한 명령어입니다, 아래의 오류를 확인하세요
+[19:46:26] [Render thread/INFO] (Minecraft) [System] [CHAT] msg<--[여기]
