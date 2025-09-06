@@ -1,5 +1,5 @@
-[20:01:21] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[20:01:22] [main/INFO] (FabricLoader) Loading 8 mods:
+[20:15:13] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[20:15:14] [main/INFO] (FabricLoader) Loading 8 mods:
 	- fabric-api-base 0.4.64+9ec45cd8f3
 	- fabric-resource-loader-v0 3.1.11+946bf4c3f3
 	- fabricloader 0.17.2
@@ -8,935 +8,154 @@
 	- meteor-client-crash-addon 0.1.0
 	- minecraft 1.21.8
 	- mixinextras 0.5.0
-[20:01:22] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/G:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:01:22] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:01:22] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[20:01:22] [main/WARN] (FabricLoader/Mixin) Error loading class: baritone/command/defaults/ComeCommand (java.lang.ClassNotFoundException: baritone/command/defaults/ComeCommand)
-[20:01:22] [main/WARN] (FabricLoader/Mixin) @Mixin target baritone.command.defaults.ComeCommand was not found meteor-client-baritone.mixins.json:ComeCommandMixin from mod meteor-client
-[20:01:23] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[20:01:24] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 501 milliseconds
-[20:01:31] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:01:31] [Render thread/INFO] (Minecraft) Setting user: Player830
-[20:01:32] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[20:01:32] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[20:01:33] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client, meteor-client-crash-addon
-[20:01:33] [Render thread/INFO] (AddonTemplate) Hello from ExampleMixin!
-[20:01:33] [Render thread/INFO] (Meteor Client) Force loading mixins
-[20:01:33] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer
-[20:01:33] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
-[20:01:33] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EndCrystalEntityRenderer
-[20:01:33] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
-[20:01:34] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.particle.FireworksSparkParticle$FireworkParticle
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.SynchronizeRegistriesTask
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ElytraFeatureRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.resource.ClientDataPackManager
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.EnchantingTableBlockEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.model.EndCrystalEntityModel
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.DisconnectedScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager$ClientChunkMap
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SectionedEntityCache
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BannerBlockEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractFurnaceScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.model.BakedQuad
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayNetworkHandler
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookEditScreen
-[20:01:34] [Worker-Main-5/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.CapeFeatureRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.ServerConfigurationNetworkHandler
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.world.CreateWorldScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.function.FunctionLoader
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.screen.HorseScreenHandler
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.PlayerEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.recipe.ServerRecipeManager
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ArmorFeatureRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.ClientConnection
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.pack.ResourcePackOrganizer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.HeadFeatureRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.chunk.light.ChunkSkyLightProvider
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.color.world.BiomeColors
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.BlockCollisionSpliterator
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine$Visible
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.config.SelectKnownPacksC2SPacket
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ChatInputSuggestor
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.EntityTrackingSection
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.ItemEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.RenderLayers
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SimpleEntityLookup
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.test.TestServer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.command.DatapackCommand
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.RaycastContext
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.util.DefaultSkinHelper
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.dedicated.ServerPropertiesHandler
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.DrawContext
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.chunk.ChunkOcclusionDataBuilder
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LivingEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayerInteractionManager
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.input.KeyboardInput
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.font.TextRenderer$Drawer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BeaconScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.multiplayer.ConnectScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.ServerAdvancementLoader
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BrewingStandScreen
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.tooltip.TooltipComponent
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.MobSpawnerBlockEntityRenderer
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.WorldRenderer$BrightnessGetter
-[20:01:34] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LightningEntityRenderer
-[20:01:34] [Render thread/INFO] (Meteor Client) Initializing Meteor Client
-[20:01:35] [Render thread/INFO] (Reflections) Reflections took 349 ms to scan 1 urls, producing 24 keys and 962 values
-[20:01:35] [Render thread/INFO] (Reflections) Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values
-[20:01:36] [Render thread/INFO] (Meteor Client) Found 106 font families.
-[20:01:36] [Render thread/INFO] (Meteor Client) Path Manager: none
-[20:01:37] [Render thread/INFO] (AddonTemplate) Initializing meteor client crash addon Made By mari_gold_27153
-[20:01:37] [Render thread/WARN] (Meteor Client) Module 'AAC CRASHER' contains invalid characters in its name making it incompatible with Meteor Client commands.
-[20:01:37] [Render thread/INFO] (Meteor Client) Loading
-[20:01:37] [Render thread/INFO] (Meteor Client) Loaded in 93 milliseconds
-[20:01:38] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 스피커(Realtek(R) Audio)
-[20:01:38] [Render thread/INFO] (Minecraft) Sound engine started
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:01:38] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[20:01:59] [Render thread/INFO] (Minecraft) Connecting to kaboom.pw, 25565
-[20:02:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 게임에 참여했습니다
-[20:02:04] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[20:02:04] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[20:02:05] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[20:02:07] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/70902, l='ClientLevel', x=198611.17, y=81.26, z=-420625.30] died, message: '주민이(가) 죽었습니다'
-[20:02:09] [Render thread/INFO] (Minecraft) [System] [CHAT] Campfire has been placed at 198652 96 -420611
-[20:02:18] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830을(를) 198652.500000, 96.000000, -420610.500000(으)로 순간이동시켰습니다
-[20:02:19] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[20:02:32] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: ?
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71182, l='ClientLevel', x=198653.42, y=83.75, z=-420609.33] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71187, l='ClientLevel', x=198649.63, y=84.00, z=-420608.50] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71188, l='ClientLevel', x=198653.29, y=84.00, z=-420608.40] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71181, l='ClientLevel', x=198655.70, y=84.25, z=-420604.26] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71179, l='ClientLevel', x=198649.46, y=82.75, z=-420607.30] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71185, l='ClientLevel', x=198650.35, y=77.19, z=-420611.45] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71186, l='ClientLevel', x=198650.32, y=76.13, z=-420614.67] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71183, l='ClientLevel', x=198650.22, y=76.42, z=-420614.29] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71177, l='ClientLevel', x=198653.11, y=81.00, z=-420607.45] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71178, l='ClientLevel', x=198654.56, y=81.23, z=-420604.05] died, message: '주민이(가) 죽었습니다'
-[20:02:32] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71176, l='ClientLevel', x=198649.47, y=83.99, z=-420604.06] died, message: '주민이(가) 죽었습니다'
-[20:02:37] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830을(를) 198652.500000, 96.000000, -420610.500000(으)로 순간이동시켰습니다
-[20:02:50] [Render thread/INFO] (Minecraft) [System] [CHAT] 자신의 게임 모드를 관전 모드로 설정했습니다
-[20:02:59] [Render thread/INFO] (Minecraft) [System] [CHAT] skc80이(가) 게임에 참여했습니다
-[20:03:03] [Render thread/INFO] (Minecraft) [System] [CHAT] skc80이(가) 게임을 떠났습니다
-[20:03:09] [Render thread/INFO] (Minecraft) Resizing Meteor - Mesh UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[20:03:10] [Render thread/INFO] (Minecraft) Resizing Meteor - Mesh UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[20:03:14] [Render thread/INFO] (Minecraft) [System] [CHAT] skc70이(가) 게임을 떠났습니다
-[20:03:28] [Render thread/INFO] (Minecraft) [System] [CHAT] mcrafter4153이(가) 게임을 떠났습니다
-[20:03:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Pong!
-[20:03:38] [Render thread/INFO] (Minecraft) [System] [CHAT] @a
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:03:45] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 개체 52개를 죽였습니다]
-[20:03:46] [Render thread/INFO] (Minecraft) [System] [CHAT] AM >> Валюта была успешно установленна!
-[20:03:49] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71895, l='ClientLevel', x=198629.69, y=101.13, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:03:50] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71919, l='ClientLevel', x=198630.25, y=97.05, z=-420575.30] died, message: '주민이(가) 죽었습니다'
-[20:03:50] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71917, l='ClientLevel', x=198630.06, y=97.03, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:03:53] [Render thread/INFO] (Minecraft) [System] [CHAT] AM >> Hello
-[20:03:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:03:54] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71918, l='ClientLevel', x=198630.55, y=97.26, z=-420574.79] died, message: '주민이(가) 죽었습니다'
-[20:03:54] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71979, l='ClientLevel', x=198627.13, y=89.27, z=-420575.31] died, message: '주민이(가) 죽었습니다'
-[20:03:55] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71921, l='ClientLevel', x=198630.56, y=97.00, z=-420574.63] died, message: '주민이(가) 죽었습니다'
-[20:03:55] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71905, l='ClientLevel', x=198629.97, y=78.12, z=-420571.54] died, message: '주민이(가) 죽었습니다'
-[20:03:55] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71923, l='ClientLevel', x=198631.09, y=97.16, z=-420575.20] died, message: '주민이(가) 죽었습니다'
-[20:03:56] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71987, l='ClientLevel', x=198626.30, y=88.81, z=-420575.59] died, message: '주민이(가) 죽었습니다'
-[20:03:56] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71911, l='ClientLevel', x=198633.49, y=76.14, z=-420574.68] died, message: '주민이(가) 죽었습니다'
-[20:03:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:03:57] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71980, l='ClientLevel', x=198629.45, y=78.17, z=-420571.63] died, message: '주민이(가) 죽었습니다'
-[20:03:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:03:58] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71908, l='ClientLevel', x=198633.45, y=78.12, z=-420573.01] died, message: '주민이(가) 죽었습니다'
-[20:03:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:03:59] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71986, l='ClientLevel', x=198630.85, y=97.62, z=-420574.90] died, message: '주민이(가) 죽었습니다'
-[20:03:59] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71898, l='ClientLevel', x=198629.77, y=100.25, z=-420574.24] died, message: '주민이(가) 죽었습니다'
-[20:04:00] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72001, l='ClientLevel', x=198627.41, y=89.42, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:00] [Render thread/INFO] (Minecraft) [System] [CHAT] AM >> Hello
-[20:04:00] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:00] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72011, l='ClientLevel', x=198623.70, y=76.09, z=-420568.30] died, message: '주민이(가) 죽었습니다'
-[20:04:02] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:02] [Render thread/INFO] (Minecraft) [System] [CHAT] [rudaru: 위더을(를) 죽였습니다]
-[20:04:03] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71904, l='ClientLevel', x=198628.72, y=81.23, z=-420571.33] died, message: '주민이(가) 죽었습니다'
-[20:04:03] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71909, l='ClientLevel', x=198631.17, y=97.39, z=-420575.35] died, message: '주민이(가) 죽었습니다'
-[20:04:03] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72006, l='ClientLevel', x=198623.50, y=103.00, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:03] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72007, l='ClientLevel', x=198623.50, y=103.00, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:03] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72009, l='ClientLevel', x=198623.50, y=103.00, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:04] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72010, l='ClientLevel', x=198623.50, y=103.00, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:05] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:06] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: wtf is helo
-[20:04:06] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Werkku: doing /pong only shows the message to yourself
-[20:04:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] Translator rate limited.
-[20:04:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:07] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72035, l='ClientLevel', x=198628.81, y=99.84, z=-420568.27] died, message: '주민이(가) 죽었습니다'
-[20:04:07] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71999, l='ClientLevel', x=198626.65, y=82.63, z=-420572.47] died, message: '주민이(가) 죽었습니다'
-[20:04:07] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71900, l='ClientLevel', x=198629.62, y=99.63, z=-420573.43] died, message: '주민이(가) 죽었습니다'
-[20:04:09] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71926, l='ClientLevel', x=198631.10, y=97.00, z=-420582.26] died, message: '주민이(가) 죽었습니다'
-[20:04:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 새로운 위더을(를) 소환했습니다]
-[20:04:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72090, l='ClientLevel', x=198629.02, y=97.35, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72091, l='ClientLevel', x=198628.79, y=97.13, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72092, l='ClientLevel', x=198628.07, y=97.62, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72094, l='ClientLevel', x=198628.30, y=97.58, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72093, l='ClientLevel', x=198627.59, y=93.04, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72032, l='ClientLevel', x=198631.45, y=100.00, z=-420570.37] died, message: '주민이(가) 죽었습니다'
-[20:04:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72089, l='ClientLevel', x=198627.85, y=89.35, z=-420575.50] died, message: '주민이(가) 죽었습니다'
-[20:04:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72118, l='ClientLevel', x=198628.50, y=80.63, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:12] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72119, l='ClientLevel', x=198628.50, y=80.63, z=-420571.50] died, message: '주민이(가) 죽었습니다'
-[20:04:16] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71903, l='ClientLevel', x=198630.14, y=97.05, z=-420574.94] died, message: '주민이(가) 죽었습니다'
-[20:04:16] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71994, l='ClientLevel', x=198630.11, y=97.20, z=-420574.15] died, message: '주민이(가) 죽었습니다'
-[20:04:18] [Render thread/INFO] (Minecraft) [System] [CHAT] (FAWE) Can't bind tool to 공기: Blocks can't be used
-[20:04:20] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71899, l='ClientLevel', x=198630.21, y=97.04, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:04:23] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:25] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72170, l='ClientLevel', x=198628.94, y=89.33, z=-420583.74] died, message: '주민이(가) 죽었습니다'
-[20:04:25] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71981, l='ClientLevel', x=198625.73, y=86.05, z=-420576.82] died, message: '주민이(가) 죽었습니다'
-[20:04:26] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71894, l='ClientLevel', x=198631.17, y=97.19, z=-420574.96] died, message: '주민이(가) 죽었습니다'
-[20:04:26] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:27] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: sendCommandFeedback 게임 규칙의 값은 이제 다음과 같습니다: true]
-[20:04:27] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71914, l='ClientLevel', x=198630.11, y=97.03, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:04:28] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72266, l='ClientLevel', x=198632.53, y=98.35, z=-420587.55] died, message: '주민이(가) 죽었습니다'
-[20:04:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:32] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:34] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:34] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:34] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71948, l='ClientLevel', x=198633.70, y=78.66, z=-420582.70] died, message: '주민이(가) 죽었습니다'
-[20:04:34] [Render thread/INFO] (Minecraft) [System] [CHAT] Have a nice day :)
-[20:04:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Forgive me :c
-[20:04:36] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71965, l='ClientLevel', x=198633.85, y=79.56, z=-420582.85] died, message: '주민이(가) 죽었습니다'
-[20:04:38] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Werkku: *alts Player830
-[20:04:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the player Player830 (10.131.133.79):\nskc70 skc80 Player830 Player907 DayDreamIngDream Eright Sleepground MinedApple 
-[20:04:38] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71929, l='ClientLevel', x=198633.04, y=73.00, z=-420584.04] died, message: '주민이(가) 죽었습니다'
-[20:04:38] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72120, l='ClientLevel', x=198629.00, y=75.00, z=-420571.12] died, message: '주민이(가) 죽었습니다'
-[20:04:38] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72121, l='ClientLevel', x=198629.49, y=75.00, z=-420570.47] died, message: '주민이(가) 죽었습니다'
-[20:04:40] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71931, l='ClientLevel', x=198634.70, y=80.94, z=-420579.70] died, message: '주민이(가) 죽었습니다'
-[20:04:41] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72051, l='ClientLevel', x=198631.42, y=79.72, z=-420571.56] died, message: '주민이(가) 죽었습니다'
-[20:04:41] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72012, l='ClientLevel', x=198622.37, y=80.44, z=-420569.31] died, message: '주민이(가) 죽었습니다'
-[20:04:41] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72013, l='ClientLevel', x=198622.73, y=80.87, z=-420569.57] died, message: '주민이(가) 죽었습니다'
-[20:04:41] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71963, l='ClientLevel', x=198632.14, y=74.00, z=-420573.34] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72046, l='ClientLevel', x=198630.73, y=96.66, z=-420575.15] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71956, l='ClientLevel', x=198633.26, y=72.00, z=-420588.61] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71939, l='ClientLevel', x=198635.30, y=70.00, z=-420586.50] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71953, l='ClientLevel', x=198630.92, y=73.00, z=-420581.46] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72002, l='ClientLevel', x=198634.61, y=75.00, z=-420576.89] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72014, l='ClientLevel', x=198623.66, y=81.00, z=-420569.06] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72015, l='ClientLevel', x=198622.51, y=80.97, z=-420569.30] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72016, l='ClientLevel', x=198623.69, y=81.00, z=-420569.70] died, message: '주민이(가) 죽었습니다'
-[20:04:42] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71935, l='ClientLevel', x=198643.30, y=72.00, z=-420568.30] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71945, l='ClientLevel', x=198637.07, y=92.76, z=-420576.65] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71927, l='ClientLevel', x=198638.70, y=90.00, z=-420576.30] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71938, l='ClientLevel', x=198635.54, y=95.23, z=-420579.36] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71928, l='ClientLevel', x=198630.57, y=96.00, z=-420581.20] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71933, l='ClientLevel', x=198630.28, y=97.00, z=-420582.09] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71940, l='ClientLevel', x=198627.50, y=100.00, z=-420577.55] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71941, l='ClientLevel', x=198629.97, y=100.00, z=-420579.38] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71944, l='ClientLevel', x=198632.63, y=97.00, z=-420578.32] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71952, l='ClientLevel', x=198632.68, y=97.92, z=-420581.26] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71957, l='ClientLevel', x=198633.35, y=97.69, z=-420580.48] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71990, l='ClientLevel', x=198626.43, y=96.00, z=-420576.05] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71951, l='ClientLevel', x=198631.03, y=96.16, z=-420581.34] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71954, l='ClientLevel', x=198633.69, y=97.69, z=-420580.68] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71912, l='ClientLevel', x=198631.50, y=87.00, z=-420574.52] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71901, l='ClientLevel', x=198629.45, y=100.00, z=-420573.70] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71902, l='ClientLevel', x=198628.51, y=99.75, z=-420573.34] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71982, l='ClientLevel', x=198630.57, y=100.00, z=-420573.29] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71983, l='ClientLevel', x=198628.80, y=99.00, z=-420573.51] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71992, l='ClientLevel', x=198626.77, y=96.00, z=-420575.21] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71996, l='ClientLevel', x=198629.61, y=99.66, z=-420573.39] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72059, l='ClientLevel', x=198630.81, y=96.00, z=-420573.28] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72104, l='ClientLevel', x=198631.90, y=100.00, z=-420573.17] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71934, l='ClientLevel', x=198626.27, y=96.00, z=-420575.59] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72126, l='ClientLevel', x=198626.50, y=100.00, z=-420574.55] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72127, l='ClientLevel', x=198630.13, y=97.04, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71955, l='ClientLevel', x=198634.00, y=97.00, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71988, l='ClientLevel', x=198630.74, y=97.21, z=-420575.01] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71937, l='ClientLevel', x=198634.70, y=97.00, z=-420574.89] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71907, l='ClientLevel', x=198631.46, y=96.92, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71964, l='ClientLevel', x=198636.58, y=97.00, z=-420574.99] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71897, l='ClientLevel', x=198631.34, y=96.00, z=-420575.94] died, message: '주민이(가) 죽었습니다'
-[20:04:43] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71960, l='ClientLevel', x=198635.78, y=98.00, z=-420575.78] died, message: '주민이(가) 죽었습니다'
-[20:04:44] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72018, l='ClientLevel', x=198629.89, y=80.97, z=-420571.45] died, message: '주민이(가) 죽었습니다'
-[20:04:44] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72024, l='ClientLevel', x=198629.60, y=78.37, z=-420571.00] died, message: '주민이(가) 죽었습니다'
-[20:04:47] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71995, l='ClientLevel', x=198627.30, y=89.46, z=-420575.11] died, message: '주민이(가) 죽었습니다'
-[20:04:47] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72000, l='ClientLevel', x=198633.16, y=86.94, z=-420573.53] died, message: '주민이(가) 죽었습니다'
-[20:04:47] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72128, l='ClientLevel', x=198626.35, y=88.06, z=-420575.30] died, message: '주민이(가) 죽었습니다'
-[20:04:47] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71910, l='ClientLevel', x=198633.16, y=76.94, z=-420573.54] died, message: '주민이(가) 죽었습니다'
-[20:04:50] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71930, l='ClientLevel', x=198632.06, y=97.00, z=-420581.07] died, message: '주민이(가) 죽었습니다'
-[20:04:53] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71998, l='ClientLevel', x=198632.33, y=81.18, z=-420572.48] died, message: '주민이(가) 죽었습니다'
-[20:04:53] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71997, l='ClientLevel', x=198623.85, y=99.00, z=-420568.87] died, message: '주민이(가) 죽었습니다'
-[20:04:53] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71913, l='ClientLevel', x=198631.78, y=78.29, z=-420571.30] died, message: '주민이(가) 죽었습니다'
-[20:04:56] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71896, l='ClientLevel', x=198632.05, y=87.04, z=-420575.01] died, message: '주민이(가) 죽었습니다'
-[20:04:57] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72026, l='ClientLevel', x=198624.65, y=96.73, z=-420568.60] died, message: '주민이(가) 죽었습니다'
-[20:04:57] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72122, l='ClientLevel', x=198625.30, y=99.00, z=-420567.68] died, message: '주민이(가) 죽었습니다'
-[20:04:57] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71906, l='ClientLevel', x=198632.62, y=87.46, z=-420575.71] died, message: '주민이(가) 죽었습니다'
-[20:04:58] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71984, l='ClientLevel', x=198633.32, y=77.85, z=-420575.69] died, message: '주민이(가) 죽었습니다'
-[20:05:02] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72123, l='ClientLevel', x=198626.79, y=99.00, z=-420569.56] died, message: '주민이(가) 죽었습니다'
-[20:05:04] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72023, l='ClientLevel', x=198629.62, y=98.00, z=-420567.94] died, message: '주민이(가) 죽었습니다'
-[20:05:07] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *alts Werkku
-[20:05:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Estonian] Player830 › *thanks to Werkku
-[20:05:07] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the player Werkku (10.131.193.34):\nWerkku Werkku2 Terroristvie Morganavi BombTexture Zuggis Player468 SlopCocaine WerBoom SkidAnkan Player92 
-[20:05:10] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72124, l='ClientLevel', x=198625.91, y=101.82, z=-420573.86] died, message: '주민이(가) 죽었습니다'
-[20:05:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72025, l='ClientLevel', x=198626.64, y=101.99, z=-420574.30] died, message: '주민이(가) 죽었습니다'
-[20:05:11] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 게임에 참여했습니다
-[20:05:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72027, l='ClientLevel', x=198624.30, y=99.81, z=-420574.40] died, message: '주민이(가) 죽었습니다'
-[20:05:11] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/72034, l='ClientLevel', x=198627.35, y=101.89, z=-420575.25] died, message: '주민이(가) 죽었습니다'
-[20:05:12] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:05:14] [Render thread/INFO] (Minecraft) Villager VillagerEntity['주민'/71962, l='ClientLevel', x=198630.30, y=91.21, z=-420579.30] died, message: '주민이(가) 죽었습니다'
-[20:05:19] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *alts adminkaboom
-[20:05:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the IP adminkaboom:\n
-[20:05:30] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: *translate en ru major
-[20:05:30] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Dutch] TheyaLiveYT › *translate in ru major
-[20:05:30] [Render thread/INFO] (Minecraft) [System] [CHAT] Result: главный
-[20:05:33] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: *translate en ru minor
-[20:05:33] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Dutch] TheyaLiveYT › *translate in ru minor
-[20:05:34] [Render thread/INFO] (Minecraft) [System] [CHAT] Result: незначительный
-[20:05:37] [Render thread/INFO] (Minecraft) [System] [CHAT] [Yaode_owo: 플레이어 20명에게서 아이템 92개를 제거했습니다]
-[20:05:38] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:05:41] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: russian
-[20:05:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 플레이어 20명의 스폰 지점을 minecraft:overworld의 198471, 81, -420323 [0.0](으)로 설정했습니다]
-[20:05:53] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *translate kr en 안녕하세요
-[20:05:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Korean] Player830 › *translate kr en Hello
-[20:05:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Result: 안녕하세요
-[20:05:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:05:59] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *translate ko en 안녕하세요
-[20:06:00] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Korean] Player830 › *translate ko en Hello
-[20:06:00] [Render thread/INFO] (Minecraft) [System] [CHAT] Result: hello
-[20:06:02] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:03] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: *translate en ru hey
-[20:06:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Result: привет
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:05] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:08] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: ?
-[20:06:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:11] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: wu
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:12] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] MrSteapler이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] 54664a90이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] 4j8i5이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Yaode_owo이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] cxvqo이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] TX_bers이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 죽었습니다
-[20:06:15] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 개체 20개를 죽였습니다]
-[20:06:16] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: mulaga은(는) 더 이상 서버 관리자가 아닙니다]
-[20:06:16] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *alts mulage
-[20:06:18] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the IP mulage:\n
-[20:06:18] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 게임을 떠났습니다
-[20:06:21] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *alts mulage
-[20:06:22] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Player830: *alts mulaga
-[20:06:22] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Estonian] Player830 › *with a mule
-[20:06:23] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the IP mulage:\n
-[20:06:23] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 게임에 참여했습니다
-[20:06:24] [Render thread/INFO] (Minecraft) [System] [CHAT] Possible alts for the player mulaga (10.131.87.59):\nmulaga 
-[20:06:26] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:26] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: mulaga은(는) 더 이상 서버 관리자가 아닙니다]
-[20:06:30] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:32] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:35] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:37] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:39] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:41] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:06:41] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:41] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:42] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:50] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:06:51] [Render thread/INFO] (Minecraft) [System] [CHAT] 자신의 게임 모드를 크리에이티브 모드로 설정했습니다
-[20:06:52] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [DeOP] mulaga: yty
-[20:06:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:55] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:06:56] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:56] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:56] [Render thread/INFO] (Minecraft) [System] [CHAT] [OP] HBot: Join the HBot Discord at discord.gg/5wv6xQEj9X!
-[20:06:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:06:59] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [DeOP] mulaga: pls op
-[20:06:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Dutch] mulaga › pls on
-[20:06:59] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:06:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:00] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:01] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:07:06] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:07:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:12] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:15] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:15] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 게임을 떠났습니다
-[20:07:15] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:15] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 새로운 화염구을(를) 소환했습니다]
-[20:07:15] [Render thread/INFO] (Minecraft) [System] [CHAT] jamesb_1이(가) 게임에 참여했습니다
-[20:07:17] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 게임에 참여했습니다
-[20:07:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:19] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:19] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:19] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:19] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:20] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:20] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:20] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:24] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:24] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] mulaga: lktr
-[20:07:24] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:24] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:24] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임을 떠났습니다
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 새로운 화염구을(를) 소환했습니다]
-[20:07:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임에 참여했습니다
-[20:07:28] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] mulaga: ttöt
-[20:07:28] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Swedish] mulaga › tttt
-[20:07:33] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: wow
-[20:07:50] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:07:51] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:07:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: MrSteapler을(를) 197783.000000, 91.000000, -420582.000000(으)로 순간이동시켰습니다]
-[20:07:57] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: bro
-[20:08:09] [Render thread/INFO] (Minecraft) [System] [CHAT] 'minecraft:entity_type' 유형의 'minecraft:' 요소를 찾을 수 없습니다\nsummon Fireball ~ ~1 ~ {ExplosionPower:127, Motion:[0.0,-1.0,0.0]}<--[여기]
-[20:08:10] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: can i have that one
-[20:08:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: MrSteapler을(를) 198473.000000, 56.000000, -420332.000000(으)로 순간이동시켰습니다]
-[20:08:13] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:08:15] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: TX_bers을(를) Laddery에게로 순간이동시켰습니다]
-[20:08:17] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Laddery: look
-[20:08:17] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:08:22] [Render thread/INFO] (Minecraft) [System] [CHAT] 자신의 게임 모드를 관전 모드로 설정했습니다
-[20:08:25] [Render thread/INFO] (Minecraft) [System] [CHAT] 새로운 화염구을(를) 소환했습니다
-[20:08:27] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] Laddery: spawn it
-[20:08:28] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: that barrel u had
-[20:08:33] [Render thread/INFO] (Minecraft) [System] [CHAT] jamesb_1이(가) 게임을 떠났습니다
-[20:08:51] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임을 떠났습니다
-[20:08:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임에 참여했습니다
-[20:09:16] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: [brhu] 팀을 만들었습니다]
-[20:09:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임을 떠났습니다
-[20:09:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임에 참여했습니다
-[20:10:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 게임에 참여했습니다
-[20:10:22] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:23] [Render thread/INFO] (Minecraft) [System] [CHAT] [P2wWt: 성공적으로 블록 1792개를 채웠습니다]
-[20:10:26] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Adem을(를) mulaga에게로 순간이동시켰습니다]
-[20:10:26] [Render thread/INFO] (Minecraft) [System] [CHAT] [P2wWt: 성공적으로 블록 2048개를 채웠습니다]
-[20:10:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Werkku이(가) 게임을 떠났습니다
-[20:10:28] [Render thread/INFO] (Minecraft) [System] [CHAT] [P2wWt: 성공적으로 블록 2048개를 채웠습니다]
-[20:10:28] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Werkku이(가) 게임에 참여했습니다
-[20:10:30] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: yo
-[20:10:31] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Haitian Creole] TX_bers › them
-[20:10:33] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: chill out
-[20:10:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임을 떠났습니다
-[20:10:35] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:37] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임에 참여했습니다
-[20:10:37] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:39] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TheyaLiveYT의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MrSteapler의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Yaode_owo의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: cxvqo의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: kimilsung의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: rudaru의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] 게임 모드가 서바이벌 모드로 갱신되었습니다
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Player830의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TX_bers의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 자신의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MajorMcR의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Adem의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Laddery의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:41] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:41] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:42] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem은(는) 추락을 피하지 못했습니다
-[20:10:42] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: chto
-[20:10:42] [Render thread/INFO] (Minecraft) [System] [CHAT] [τMod | Translator] [Russian] TX_bers › what
-[20:10:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:43] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:44] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:44] [Render thread/INFO] (Minecraft) [System] [CHAT] [kimilsung: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:46] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:46] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:47] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:48] [Render thread/INFO] (Minecraft) [System] [CHAT] [TX_bers: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:48] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:49] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TheyaLiveYT의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MrSteapler의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: kimilsung의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: rudaru의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TX_bers의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MajorMcR의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Laddery의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [TX_bers: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TX_bers의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Laddery의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TheyaLiveYT의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Laddery의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [kimilsung: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TheyaLiveYT: i Cheater
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: kimilsung의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:54] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 모험 모드로 설정했습니다]
-[20:10:56] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 모험 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MajorMcR의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TheyaLiveYT의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:10:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:01] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:02] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: -stop nigga
-[20:11:02] [Render thread/INFO] (Minecraft) [System] [CHAT] [rudaru: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:04] [Render thread/INFO] (Minecraft) [System] [CHAT] [TX_bers: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:06] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TheyaLiveYT의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MrSteapler의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: rudaru의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TX_bers의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MajorMcR의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:07] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [TX_bers: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: P2wWt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 5GJ의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: jbTt의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: WuBmnCb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 54664a90의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: ABot의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: z3Deb의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: 4j8i5의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: TX_bers의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: MajorMcR의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [mulaga: Werkku의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [TheyaLiveYT: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [jbTt: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [Werkku: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [5GJ: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [54664a90: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [WuBmnCb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [ABot: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [4j8i5: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:10] [Render thread/INFO] (Minecraft) [System] [CHAT] [z3Deb: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:11] [Render thread/INFO] (Minecraft) [System] [CHAT] troll_ing이(가) 게임에 참여했습니다
-[20:11:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [TX_bers: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:12] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:14] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:16] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [MrSteapler: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:11:19] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:20] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임을 떠났습니다
-[20:11:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Laddery이(가) 게임에 참여했습니다
-[20:11:24] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:26] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:32] [Render thread/INFO] (Minecraft) [System] [CHAT] [MajorMcR: MajorMcR을(를) 20000.500000, 333.000000, 20000.500000(으)로 순간이동시켰습니다]
-[20:11:39] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:11:39] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: is there an offical discord for ts
-[20:11:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [P2wWt: 성공적으로 블록 2048개를 채웠습니다]
-[20:11:42] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:45] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:11:48] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:57] [Render thread/INFO] (Minecraft) [System] [CHAT] mulaga이(가) 게임을 떠났습니다
-[20:11:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:11:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:12:02] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:12:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:12:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:12:05] [Render thread/INFO] (Meteor Client) Saving
-[20:12:05] [Render thread/INFO] (Meteor Client) Saved in 85 milliseconds.
-[20:12:05] [Render thread/WARN] (Minecraft) Client disconnected with reason: Internal Exception: io.netty.handler.codec.EncoderException: Failed to encode packet 'clientbound/minecraft:set_entity_data'
-[20:12:12] [Render thread/INFO] (Minecraft) Connecting to kaboom.pw, 25565
-[20:12:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Player830이(가) 게임에 참여했습니다
-[20:12:17] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 용암에 빠졌습니다
-[20:12:17] [Render thread/INFO] (Minecraft) [System] [CHAT] Adem이(가) 게임을 떠났습니다
-[20:12:18] [Render thread/INFO] (Minecraft) [System] [CHAT] BbPl이(가) 게임에 참여했습니다
-[20:12:24] [Render thread/INFO] (Minecraft) [System] [CHAT] 자신의 게임 모드를 크리에이티브 모드로 설정했습니다
-[20:12:30] [Render thread/INFO] (Minecraft) [System] [CHAT] TheyaLiveYT이(가) 게임을 떠났습니다
-[20:12:48] [Render thread/INFO] (Minecraft) [System] [CHAT] Werkku이(가) 게임에 참여했습니다
-[20:12:48] [Render thread/INFO] (Minecraft) [System] [CHAT] Werkku이(가) 게임을 떠났습니다
-[20:12:49] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] [OP] TX_bers: what the shit
-[20:12:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Werkku이(가) 게임에 참여했습니다
-[20:12:56] [Render thread/INFO] (Minecraft) [System] [CHAT] [OP] HBot: Say hbot:help in chat for a list of commands or say hbot:help [command] for more detail on a command.
-[20:12:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [troll_ing: 자신의 게임 모드를 관전 모드로 설정했습니다]
-[20:13:15] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:13:32] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:13:36] [Render thread/INFO] (Minecraft) [System] [CHAT] [troll_ing: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:13:38] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:13:45] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:13:50] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임에 참여했습니다
-[20:14:03] [Render thread/INFO] (Minecraft) [System] [CHAT] MajorMcR이(가) 게임을 떠났습니다
-[20:14:30] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:14:31] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
-[20:14:32] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 서바이벌 모드로 설정했습니다]
-[20:14:34] [Render thread/INFO] (Minecraft) [System] [CHAT] kono_a이(가) 게임에 참여했습니다
-[20:14:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [Laddery: 자신의 게임 모드를 크리에이티브 모드로 설정했습니다]
+[20:15:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/G:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:15:14] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:15:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[20:15:15] [main/WARN] (FabricLoader/Mixin) Error loading class: baritone/command/defaults/ComeCommand (java.lang.ClassNotFoundException: baritone/command/defaults/ComeCommand)
+[20:15:15] [main/WARN] (FabricLoader/Mixin) @Mixin target baritone.command.defaults.ComeCommand was not found meteor-client-baritone.mixins.json:ComeCommandMixin from mod meteor-client
+[20:15:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:15:17] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 597 milliseconds
+[20:15:26] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:15:26] [Render thread/INFO] (Minecraft) Setting user: Player344
+[20:15:26] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[20:15:27] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[20:15:29] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client, meteor-client-crash-addon
+[20:15:29] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[20:15:29] [Render thread/INFO] (AddonTemplate) Hello from ExampleMixin!
+[20:15:29] [Render thread/INFO] (Meteor Client) Force loading mixins
+[20:15:29] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer
+[20:15:29] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+[20:15:29] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EndCrystalEntityRenderer
+[20:15:29] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.particle.FireworksSparkParticle$FireworkParticle
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.SynchronizeRegistriesTask
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ElytraFeatureRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.EnchantingTableBlockEntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.resource.ClientDataPackManager
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.model.EndCrystalEntityModel
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.DisconnectedScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager$ClientChunkMap
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SectionedEntityCache
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BannerBlockEntityRenderer
+[20:15:30] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractFurnaceScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.model.BakedQuad
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayNetworkHandler
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookEditScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.CapeFeatureRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.ServerConfigurationNetworkHandler
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.world.CreateWorldScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.function.FunctionLoader
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.screen.HorseScreenHandler
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.PlayerEntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ArmorFeatureRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.ClientConnection
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.recipe.ServerRecipeManager
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.pack.ResourcePackOrganizer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.HeadFeatureRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.chunk.light.ChunkSkyLightProvider
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.color.world.BiomeColors
+[20:15:30] [Worker-Main-9/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.BlockCollisionSpliterator
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine$Visible
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.config.SelectKnownPacksC2SPacket
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ChatInputSuggestor
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.EntityTrackingSection
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.ItemEntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.RenderLayers
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SimpleEntityLookup
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookScreen
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.test.TestServer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.RaycastContext
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.command.DatapackCommand
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.util.DefaultSkinHelper
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.dedicated.ServerPropertiesHandler
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.DrawContext
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.chunk.ChunkOcclusionDataBuilder
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LivingEntityRenderer
+[20:15:30] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayerInteractionManager
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.input.KeyboardInput
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.font.TextRenderer$Drawer
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BeaconScreen
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.multiplayer.ConnectScreen
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BrewingStandScreen
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.ServerAdvancementLoader
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.tooltip.TooltipComponent
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.MobSpawnerBlockEntityRenderer
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.WorldRenderer$BrightnessGetter
+[20:15:31] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LightningEntityRenderer
+[20:15:31] [Render thread/INFO] (Meteor Client) Initializing Meteor Client
+[20:15:32] [Render thread/INFO] (Reflections) Reflections took 454 ms to scan 1 urls, producing 24 keys and 962 values
+[20:15:32] [Render thread/INFO] (Reflections) Reflections took 7 ms to scan 1 urls, producing 2 keys and 10 values
+[20:15:33] [Render thread/INFO] (Meteor Client) Found 106 font families.
+[20:15:33] [Render thread/INFO] (Meteor Client) Path Manager: none
+[20:15:34] [Render thread/INFO] (AddonTemplate) Initializing meteor client crash addon Made By mari_gold_27153
+[20:15:34] [Render thread/INFO] (Meteor Client) Loading
+[20:15:34] [Render thread/INFO] (Meteor Client) Loaded in 146 milliseconds
+[20:15:35] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 스피커(Realtek(R) Audio)
+[20:15:35] [Render thread/INFO] (Minecraft) Sound engine started
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:15:36] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20:15:41] [Render thread/INFO] (Minecraft) Loaded 1407 recipes
+[20:15:41] [Render thread/INFO] (Minecraft) Loaded 1520 advancements
+[20:15:42] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[20:15:42] [Server thread/INFO] (Minecraft) Generating keypair
+[20:15:42] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[20:15:43] [Render thread/INFO] (Minecraft) 스폰 영역 준비 중: 0%
+[20:15:43] [Render thread/INFO] (Minecraft) 스폰 영역 준비 중: 0%
+[20:15:43] [Render thread/INFO] (Minecraft) Time elapsed: 768 ms
+[20:15:44] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[20:15:44] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[20:15:45] [Server thread/INFO] (Minecraft) Player344[local:E:7be8c8e8] logged in with entity id 1 at (9.5, -60.0, 4.5)
+[20:15:46] [Server thread/INFO] (Minecraft) Player344이(가) 게임에 참여했습니다
+[20:15:46] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[20:15:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[20:15:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[20:15:47] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[20:15:48] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:15:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[20:15:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[20:15:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[20:15:49] [Render thread/INFO] (Meteor Client) Saving
+[20:15:49] [Render thread/INFO] (Meteor Client) Saved in 97 milliseconds.
+[20:15:49] [Server thread/INFO] (Minecraft) Player344 lost connection: 연결 끊김
+[20:15:49] [Server thread/INFO] (Minecraft) Player344이(가) 게임을 떠났습니다
+[20:15:49] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[20:15:49] [Server thread/INFO] (Minecraft) Stopping server
+[20:15:49] [Server thread/INFO] (Minecraft) Saving players
+[20:15:49] [Server thread/INFO] (Minecraft) Saving worlds
+[20:15:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[20:15:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[20:15:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[20:15:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (새로운 세계): All chunks are saved
+[20:15:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:15:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:15:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[20:15:55] [Render thread/INFO] (Minecraft) Stopping!
+[20:15:55] [Thread-8/INFO] (Meteor Client) Saving
+[20:15:55] [Thread-8/INFO] (Meteor Client) Saved in 33 milliseconds.

