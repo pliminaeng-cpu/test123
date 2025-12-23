@@ -8,16 +8,16 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket;
-import widecat.meteorcrashaddon.CrashAddon;
+import com.example.addon.AddonTemplate;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class CompletionCrash extends Module {
+public class COMPLETIONCRASH extends Module {
     private final SettingGroup sgGeneral = settings.createGroup("Rate");
 
-    public CompletionCrash() {
-        super(CrashAddon.CATEGORY, "CompletionCrash", "Funny Completion");
+    public COMPLETIONCRASH() {
+        super(AddonTemplate.CATEGORY, "CompletionCrash", "Funny Completion");
     }
 
     private int length = 2032;
