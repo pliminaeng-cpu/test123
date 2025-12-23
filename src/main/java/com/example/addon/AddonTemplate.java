@@ -27,6 +27,10 @@ public class AddonTemplate extends MeteorAddon {
         Modules.get().add(new PARTICLECRASHER());
         Modules.get().add(new FIREBALLCRASHER());
         Modules.get().add(new KABOOMCRASH());
+        Modules.get().add(new KABOOMFILL());
+        Modules.get().add(new KABOOMPYRAMID());
+        Modules.get().add(new ErrorCrash());
+        Modules.get().add(new CraftingCrash());
 //        Commands.add(new Crash());
 
     }
